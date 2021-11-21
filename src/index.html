@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MyFoodRecipe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header id= "home" class="header">
+            <div class="navigation">
+                <button id="btndrawer" class="btn-drawer">☰</button>
+                <h1 class="abc">FOOD<sub>est</sub></h1>
+                <nav id="navheader" class="nav-drawer">
+                    <ul class="navigation-1">
+                        <li class="nav-item"><a href="#home">Home</a></li>
+                        <li class="nav-item"><a href="#menu">Recipe</a></li>
+                        <li class="nav-item"><a href="#gallery">Shop</a></li>
+                        <li class="nav-item"><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <app-header></app-header>
+        </header>
+        <main>
+            <hr style="width: 10; margin-bottom: 50px;">
+            <h2>Category</h2>
+            <section class="container-bg" id='menu'>
+                <div class="container">
+                    <category-list class="category-list"></category-list>
+                </div>
+                
+            </section>
+            <section class='searh-data-food'>
+                <div class="search-bar">
+                    <search-data></search-data>
+                </div>
+                <div class="container-1">
+                    <food-list class="category-list"></food-list>
+                </div>
+            </section> 
+        </main>
+        <footer>
+            <p>melinasafi &copy; 2021</p>
+        </footer>
+    </body>
+</html>
