@@ -1,0 +1,440 @@
+*{
+    box-sizing: inherit;
+}
+
+@font-face{
+    font-family: magierra;
+    src: url(magierra.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.body{
+    margin: 0;
+}
+
+.margins{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.bg-facility{
+   background-image: url(images/nasi-uduk.jpg);
+}
+
+.line{
+    border-top: 3px solid #411308;
+    width: 90%;
+    margin:2%
+}
+
+.center-text{
+    text-align: center;
+}
+
+h2 {
+    font-family:magierra}
+
+.navheader{
+    display: flex;
+    overflow: hidden;
+    background-color: #411308;
+}
+
+.navheader a{
+    float: right;
+    color: white;
+    display:flex;
+    padding: 1.2%;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navheader a:hover{
+    background-color: #d69f7e;
+}
+
+.navheader .images{
+    display: none;
+}
+
+.navbar-fix{
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+
+.wal-header{
+    width: 100%;
+    height: 720px;
+}
+
+.wal-header img{
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+    filter: sepia(30%);
+}
+
+.margin-service{
+    margin: 2%;
+}
+
+.text-header{
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 40%;
+    left: 30%;
+    width: 40%;
+    text-align: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-column h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.main-row{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.main-row img{
+    width: 40%;
+}
+
+.main-card{
+    padding: 5px;
+    box-shadow: rgba(133, 118, 118, 0.8);
+    background-color:turquoise;
+    border-radius: 0 10px 10px 0;
+    align-content: center;
+
+}
+
+.main-card img{
+    width: 15%;
+}
+
+.content{
+    display: none;
+    width: 100%;
+    padding: 10px;
+    flex-basis: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 2%;
+}
+
+.content p{
+    font-size: 13px;
+}
+
+input, textarea{
+    width: 50%;
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid dimgray;
+    resize: vertical;
+    border-radius: 20px;
+    background-color: #ffdcc2;
+    
+}
+
+label{
+    display: inline-block;
+}
+
+.image-as{
+    background-color: gold;
+    width: 20%;
+    border-radius: 100%;
+}
+
+.menu-row{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-top: 10%;
+    align-content: center;
+}
+
+
+.flex-row{
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+}
+
+.images-col img{
+    transition-duration: 5s;
+
+}
+.images-col img:hover{
+    box-shadow: 0px 8px 8px 0  rgba(0, 0, 0, 0.8);
+    z-index: 0;
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    border: 2px solid #862906;
+}
+
+.main-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-height: 500px;
+
+}
+
+.main-column a{
+    text-decoration: none;
+}
+
+.first{
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+
+.second{
+    flex-grow: 1;
+    height: 500px;
+}
+
+.menu{
+    justify-content: space-between;
+    padding: 10%;
+}
+
+.menu-bar{
+    background-color: #E2E8CE;
+    border-radius: 4px 10px 4px 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #ed862b;    
+}
+
+.menu-bar:hover{
+background-color: turquoise;
+}
+
+.menu-1{
+    padding: 0 6px;
+    width: 100%;
+    float: left;
+}
+.menu-2{
+    border: 1px solid gray;
+}
+
+.menu-2 img{
+    width: 100%;
+    height: 100%;
+}
+.menu-2 :hover{
+    border: 2px solid #b07d62;
+}
+.menu-text{
+    padding: 0;
+    text-align: center;
+}
+
+.image-round{
+    background-color: #eda268;
+    padding: 1em;
+    border-radius: 50%;    
+}
+
+.service-row{
+    display: flex;
+    flex-basis: 20%;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    object-fit:cover;
+    align-content: center;
+    justify-content: center;
+}
+
+.service-row h4{
+    text-align: center;
+}
+
+.service-row p{
+    text-align: justify;
+}
+
+.service-row img{
+    width: 50%;
+}
+
+.bg-menu{
+    background-color: #ed862b;
+}
+
+.menu-nav-row{
+    display: flex;
+    justify-content: center;
+    background-color:yellow;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+}
+
+.menu-nav-row a{
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu-nav-row a:hover{
+    text-decoration:underline
+}
+
+.main-menu-1{
+    display: flex;
+
+}
+
+.main-menu-1-text{
+    flex-grow: 1;
+}
+.main-menu-1-bold{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.main-menu-1-name{
+    margin-right: 2em;
+}
+.main-menu-1-desc{
+    line-height: 1;
+}
+
+footer{
+    text-align: center;
+}
+
+.images-row{
+    display: flex;
+    margin-top: 20px;
+    padding: 0 2px;
+}
+
+.images-col img{
+    width: 100%;
+}
+.images-col{
+    max-width: 20%;
+    padding: 0 2px;
+    vertical-align: middle;
+}
+
+.card-out{
+
+    background-color: #862906;
+}
+
+.card-in{
+    background-color: #ed862b;
+    margin: 5%;
+    padding: 2%;
+    border: 2px dotted bisque;
+    color: #ffdcc2;
+}
+
+
+.card{
+    box-shadow: 1px 4px 8px 0  rgba(0, 0, 0, 0.6);
+    padding: 0.5%;
+}
+.margins-as{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+aside {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+aside table{
+    margin-left: 45%; margin-right: 45%;
+
+}
+
+aside img{
+    width: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .navheader{
+        flex-direction: column;
+    }
+    .navheader a{
+        font-size: 12px;
+    }
+    .menu-row{
+        flex-direction: column;
+    }
+    h2{
+        font-size: small;
+    }
+
+    .menu{
+        flex-direction: row;
+        
+    }
+
+    .card-in{
+        font-size: 12px;
+    }
+    .menu-bar{
+        padding-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .main-row{
+        flex-direction: column;
+        font-size: 12px;
+    }
+    .main-row img{
+        width: 100%;
+    }
+
+    .flex-column h2{
+        font-size: 20px;
+    }
+    .flex-row{
+        flex-direction: column;
+    }
+    .service-row{
+        max-width: 80%;
+        flex-basis: 10%;
+    }
+    .service-row p{
+        font-size: 10px;
+    }
+    figcaption{
+        font-size: 9px;
+    }
+    .service-row h4{
+        font-size: 12px;
+    }
+}
