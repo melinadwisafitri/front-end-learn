@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bookshelf</title>
+        <link rel="stylesheet" href="assets/style.css">
+        <script src="assets/js/main.js" type="text/javascript"></script>
+        <script src="assets/js/dom.js" type="text/javascript"></script>
+        <script src="assets/js/storage.js" type="text/javascript"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <nav class="nav-head fix">
+                <a href="#home">Home</a>
+                <a href="#book">Books</a>
+            </nav>
+            <div class="wal-head" id="home">
+                <img src="assets/images/book1.jpg">
+                <div class="text-head">
+                    <h1>Bookshelf</h1>
+                    <hr>
+                    <p class="small">read your book, to open your mind</p>
+                    <div class="buttons">
+                    <a style="margin-top: 30em;;" href="#book">Begin</a>
+                    </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="shadow">
+                    <h2>Search Data Books</h2>
+                    <hr>
+                    <div class="search">
+                        <input type="text" id="search-input" name="search">
+                        <input type="submit" id="search-button" name="submit-search" value="SEARCH">
+                    </div>   
+                    <div style="display: flex; flex-direction: column;" id="search-div"></div>                 
+                </div>
+            </section>
+            <section class="list-detail" id="book">
+                <div class="list-detail-1 card">
+                    <h2 >Add book Data</h2>
+                    <hr>
+                    <form class="from-books" id="from-book-data">
+                        <div>
+                            <label for="title">Title</label><br>
+                            <input id="input-title" type="text" name="title" required>
+                        </div>
+                        <div>
+                            <label for="author">Author</label><br>
+                            <input type="text" id="input-author" name="author" required>
+                        </div>
+                        <div>
+                            <label for="year">Years</label><br>
+                            <input type="number" id="input-year" name="year" required>
+                        </div>
+                        <div>
+                            <label for="number-page">Number of Pages</label><br>
+                            <input type="number" id="input-number-page" name="number-page" required>
+                        </div>
+                        <div>
+                            <label for="desc">Descriptions</label><br>
+                            <input type="text" id="input-desc" name="desc" required>
+                        </div>
+                        <div>
+                            <label for="complete">Complete Reading?</label>
+                            <input type="checkbox" id="input-complete" name="complete">
+                        </div>
+                        <div>
+                            <input type="submit" id='submited' name="submit-data" value="SUBMIT DATA">
+                        </div>
+                    </form>
+                </div>
+                <div class="list-detail-2">
+                    <div class="property-detail">
+                        <h2>Complete Reading</h2>
+                        <hr>
+                        <div class="list list-detail-3" id="book-list-comp"></div>
+                    </div>
+                    <div class="property-detail">
+                        <h2>Uncomplete Reading</h2>
+                        <hr>
+                        <div class="list list-detail-3" id="book-list-uncomp"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div align="center">
+                <p>Copyright &copy; melinasafi 2021</p>
+            </div>
+        </footer>
+    </body>
+</html>
