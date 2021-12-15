@@ -1,5 +1,3 @@
-# front-end-learn
-<<<<<<< fundamental
 # front-end-learn kelas fundamental
 Install terlebih dahulu program node.js
 - kemudian untuk menjalankan program install dulu beberapa package yang dibutuhkan yaitu: 
