@@ -1,8 +1,19 @@
-# front-end-learn
+# front-end-learn kelas fundamental
+Install terlebih dahulu program node.js
+- kemudian untuk menjalankan program install dulu beberapa package yang dibutuhkan yaitu: 
+    - @babel/core 
+    - @babel/present-env 
+    - babel-loader 
+    - css-loader 
+    - html-webpack-plugin 
+    - style-loader 
+    - webpack 
+    - webpack-cli 
+    - webpack-dev-server 
+    - webpack-merge
+    - file-loader
+    - eslint
+    
+    Sedangkan untuk penggunaan eslint dapat intall terlebih dahulu extention yang terdapat dalam VsCode.
 
-Repositori ini berisi tugas-tugas submition jalur kelas belajar front-end di platfom dicoding.com
 
-Yang terdiri dari 
-- [kelas web dasar](https://github.com/melinadwisafitri/front-end-learn/tree/beginner)
-- [kelas front end pemula](https://github.com/melinadwisafitri/front-end-learn/tree/base-class)
-- [kelas front-end fundamental](https://github.com/melinadwisafitri/front-end-learn/tree/fundamental)
